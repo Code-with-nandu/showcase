@@ -708,14 +708,18 @@
 						<div class="col-md-3 col-sm-6">
 							<div class="single-footer-widget">
 								<div class="footer-logo">
-									<a href="index.html">carvilla</a>
+									<a href="index.html">showcase</a>
 								</div>
 								<p>
-									Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.
+									<strong> Discover, Explore, and Learn :
+									Showcase My all Software Projects:
+									
+									The Ultimate Portfolio for Innovative Software Solutions:</strong>
 								</p>
 								<div class="footer-contact">
-									<p>info@themesine.com</p>
-									<p>+1 (885) 2563154554</p>
+									<p>info@krishnendudalui.in.net</p>
+									<p>+91 9433532329</p>
+									<p>+91 9143122451</p>
 								</div>
 							</div>
 						</div>
@@ -732,23 +736,23 @@
 						</div>
 						<div class="col-md-3 col-xs-12">
 							<div class="single-footer-widget">
-								<h2>top brands</h2>
+								<h2>top Projct </h2>
 								<div class="row">
 									<div class="col-md-7 col-xs-6">
 										<ul>
-											<li><a href="#">BMW</a></li>
-											<li><a href="#">lamborghini</a></li>
-											<li><a href="#">camaro</a></li>
-											<li><a href="#">audi</a></li>
-											<li><a href="#">infiniti</a></li>
-											<li><a href="#">nissan</a></li>
+											<li><a href="#">Admin & Dashboard </a></li>
+											<li><a href="#">Bootstrap 5</a></li>
+											<li><a href="#">Material UI</a></li>
+											<li><a href="#">eCommerce</a></li>
+											<li><a href="#">Tailwind CSS</a></li>
+											<li><a href="#">Landing Pages</a></li>
 										</ul>
 									</div>
 									<div class="col-md-5 col-xs-6">
 										<ul>
-											<li><a href="#">ferrari</a></li>
-											<li><a href="#">porsche</a></li>
-											<li><a href="#">land rover</a></li>
+											<li><a href="#">Business & Corporate</a></li>
+											<li><a href="#">Portfolio</a></li>
+											<li><a href="#">Educational</a></li>
 											<li><a href="#">aston martin</a></li>
 											<li><a href="#">mersedes</a></li>
 											<li><a href="#">opel</a></li>
@@ -762,7 +766,7 @@
 								<h2>news letter</h2>
 								<div class="footer-newsletter">
 									<p>
-										Subscribe to get latest news  update and informations
+										Subscribe to get latest news update and informations
 									</p>
 								</div>
 								<div class="hm-foot-email">
@@ -781,8 +785,11 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p>
-								&copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine</a>.
-							</p><!--/p-->
+								<strong>
+									Copyright &copy;2012-<span id="currentYear"></span>, <span id="formattedDate"></span> at <span id="formattedTime"></span>, GMT+5:30 ,<a href="https://krishnendudalui.in.net">KRISHNENDU @ KRISHNENDU</a>.
+								</strong>
+								All rights reserved.
+							</p>
 						</div>
 						<div class="col-sm-6">
 							<div class="footer-social">
@@ -807,6 +814,39 @@
         </footer><!--/.contact-->
 		<!--contact end-->
 
+	<!--contact end-->
+	<script>
+		function updateDateTime() {
+			const now = new Date();
+
+			// Format date (e.g., August 14)
+			const dateOptions = { month: 'long', day: 'numeric' };
+			const formattedDate = now.toLocaleDateString('en-US', dateOptions);
+			document.getElementById('formattedDate').textContent = formattedDate;
+
+			// Format time (e.g., 09:59:43 PM)
+			const timeOptions = {
+				hour: '2-digit',
+				minute: '2-digit',
+				second: '2-digit',
+				hour12: true
+			};
+			const formattedTime = now.toLocaleTimeString('en-US', timeOptions);
+			document.getElementById('formattedTime').textContent = formattedTime;
+
+
+			// Set the current year
+			document.getElementById('currentYear').textContent = now.getFullYear();
+		}
+
+
+		// Update date and time when the page loads
+		updateDateTime();
+
+
+		// Optional: Update every second to keep time current
+		setInterval(updateDateTime, 1000);
+	</script>
 
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
