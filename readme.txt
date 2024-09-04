@@ -1,20 +1,20 @@
 -----------------------
 # README
 -----------------------
-CarVilla is a one page bootstrap 3 based Car Dealer Automotive website template.
+shocase is a HTML CSS AND JS project frontentdevloper to shocsese there work in the website  website 
 
 
 Template Info:
 -----------------------
-Name: 		CarVilla - Free Bootstrap One Page Car Dealer Automotive website template
+Name: 		 CSS AND JS project
 Version: 	1.0
-Author: 	ThemeSINE
-Website: 	https://www.themesine.com/
+Author: 	Krishendu dalui
+Website: 	https://krishnendudalui.in.net
 
 
 Changelog:
 -----------------------
-Version 1.0 13-06-2018
+Version 1.0 13-09-2024
 - initial release 
 
 
@@ -31,4 +31,4 @@ Credits:
 
 License:
 -----------------------
-This template is under Free License - https://www.themesine.com/license/
+This template is under Free License -https://krishnendudalui.in.net/license/
